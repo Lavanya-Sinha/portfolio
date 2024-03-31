@@ -375,44 +375,41 @@ p{
 }
 .contact-links{
     font-size: 20px;
+    margin-left: 20px;
 }
 .x-logo{
-    width: 88%;
+    width: 100%;
     object-fit: cover;
-    margin-left: 20%;
     height: 15%;
 }
 .x{
     margin-top: 10%;
 }
 .gitHub-logo{
-    width: 88%;
+    width: 100%;
     object-fit: cover;
-    margin-left: 10%;
     height: 15%;
 }
 .gitHub{
     margin-top: 10%;
 }
 .gmail-logo{
-    width: 88%;
+    width: 100%;
     object-fit: cover;
-    margin-left: 10%;
     height: 15%;
 }
 h5{
     border-bottom: 1px solid gray;
 }
 .phone-logo{
-    width: 88%;
+    width: 100%;
     object-fit: cover;
-    margin-left: 10%;
     height: 15%;
 }
 .logos{
     width: 5%;
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 .linkedin{
     width: 100%;
@@ -617,6 +614,12 @@ display: none;
 }
 h3{
     margin: 20px;
+}
+.lu-img{
+    margin-top: 100px;
+}
+.corizo-img{
+    margin-top: 300px;
 }
 }
 @media(min-width : 560px) and (max-width : 642px) {
