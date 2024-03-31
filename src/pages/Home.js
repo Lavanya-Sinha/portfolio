@@ -31,7 +31,7 @@ function Home() {
         <div className='about-me'>
             <p className='greeting'>Hello</p>
             <p className="heading">A Bit About Me</p>
-            <p className="paragraph">I am Lavanya Sinha. I am an aspiring front-end developer. I am originally from Patna, India but have completed my primary education from Gujarat.Currently, I am pursuing my Under-Graduation in Bachelor of Computer Applications in Acharya Bangalore Business School in Bangalore, Inida. I am well versed with HTML, CSS, Bootstrap, Basic and Advance JavaScript and right now I am working enthusiastically on React and that is reflected in my projects as well. This portfolio is also build on React </p>
+            <p className="paragraph">I am Lavanya Sinha. I am an aspiring front-end developer. I am originally from Patna, India but have completed my primary education from Gujarat.Currently, I am pursuing my Under-Graduation in Bachelor of Computer Applications in Acharya Bangalore Business School in Bangalore, India. I am well versed with HTML, CSS, Bootstrap, Basic and Advance JavaScript and right now I am working enthusiastically on React and that is reflected in my projects as well. This portfolio is also build on React </p>
         </div>
         <div className="buttons">
             <button className="btn btn-1" onClick={handleResume}>Resume</button>
