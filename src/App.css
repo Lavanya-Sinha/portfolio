@@ -285,7 +285,7 @@ h5{
     margin-top: 40% ;
 }
 
-@media (max-width:990px) {
+@media (min-width : 320px) and (max-width:990px) {
     nav{
         display: none;
     }
@@ -522,7 +522,7 @@ ul{
     opacity: 1;
 }
 }
-@media (min-width : 320px) and (max-width:818px) {
+@media (max-width:818px) {
     .img{
      
         height : 60vh
@@ -539,4 +539,79 @@ ul{
  .ham{
     margin-bottom: 15%;
  }
+}
+@media(max-width : 642px) {
+    nav{
+        display: none;
+    }
+.name{
+    margin: 30px;
+    font-size :  30px;
+}
+.options{
+ height: 0;
+display: none;
+}
+.linkers{
+    margin-top: 20%;
+   
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.header{
+    width: 100%;
+}
+.main{
+    flex-direction: column-reverse;
+}
+.paragraph{
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.6;
+    word-wrap: break-word;
+    max-width: 60%;
+    margin-left: 20%;
+}
+.heading{
+    text-align: center;
+}
+.greeting{
+
+    font-size: 50px;
+    text-align: center;
+}
+.media-query{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.buttons{
+    align-items: center;
+    margin-bottom: 20px;
+}
+.btn{
+    width: 100px;
+    height: 100px;
+}
+.img{
+    object-fit: cover;
+    width: 80%;
+    height:40vh;
+}
+.project-heading{
+    margin: 5%;
+   font-size: 60px;
+   
+}
+.content{
+    flex-direction: column;
+   text-align: center;
+}
+.image{
+     max-width: 100%;
+}
+.project-image{
+   object-fit: fill;
+   max-width: 90%;
+}
 }
