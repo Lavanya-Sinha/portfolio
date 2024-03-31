@@ -1,0 +1,542 @@
+.App{
+  overflow-x: hidden;
+}
+.home{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.options{
+    display: flex;
+
+    margin: 15%;
+}
+.ham{
+    height: 20px;
+    align-self: end;
+    display: none;
+}
+
+.cross{
+    height: 20px;
+    align-self: end;
+    display: none;
+}
+.side-btn{
+    border: none;
+    background-color: white;
+    margin-right: 10%;
+
+}
+.linkers{
+    margin-top: 2%;
+    padding: 5%;
+    cursor: pointer;
+    text-decoration: none;
+}
+.name{
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2% ;
+    padding: 5%;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.img{
+    
+        width: 100%;
+        height: 70vh;
+        border-radius: 50%;
+        object-fit: cover;
+    
+}
+.about-me{
+   
+    margin: 2%;
+    margin-left: 0;
+}
+.greeting{
+    font-size: 60px;
+    font-weight: 600;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 500;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 20vh; 
+    height: 20vh;
+    margin: 0 20px; 
+    border-radius: 50%;
+    font-size: 20px;
+}
+.buttons .btn {
+    transition: background-color 0.3s ease;
+}
+ .buttons .btn:hover{
+    background-color: white !important;
+    cursor: pointer;
+}
+.buttons .btn.btn-1{
+background-color: rgba(255, 166, 0, 0.959) ;
+}
+.buttons .btn.btn-2{
+    background-color: rgb(255, 95, 80) ;
+    }
+    .buttons .btn.btn-3{
+        background-color: lightblue ;
+        }
+footer{
+    width: 80%;
+    margin: 5%;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+.project-heading{
+    margin : 3%;
+    margin-bottom: 0;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.project-image{
+    height: 50vh;
+    width: 70vh ;
+    object-fit:fill;
+    margin-right: 10%;
+    order: 2
+
+}
+.project-details{
+    margin: 3%;
+    margin-right: 0;
+    width: 40%;
+}
+.project-summary{
+    width: 50%;
+}
+.links{
+    display: flex;
+}
+
+ .btn.btn-1{
+    background-color: lightcoral ;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+   .btn.btn-2{
+    background-color: lightblue;
+    cursor: pointer;
+    transition: background-color 0.3s ease
+ }
+ .default-string{
+    margin: 10%;
+ }
+ .btn.btn-1:hover{
+background-color: white;
+ }
+ .btn.btn-2:hover{
+    background-color: white;
+ }
+ .contact-heading{
+    margin : 15%;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+p{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.collective-contact{
+    margin-left:20% ;
+}
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+}
+.logos{
+    width: 5%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.linkedin{
+    width: 100%;
+    object-fit: cover;
+}
+.actual-contacts{
+    display: flex;
+   
+}
+.contact-links{
+    margin: 5%;
+    margin-left: 1%;
+    margin-top: 6%;
+}
+a{
+    cursor: pointer;
+        color: black ;
+        text-decoration: none;
+        border-bottom: 1px solid gray;
+}
+.x-logo{
+    width: 60%;
+    object-fit: cover;
+    margin-left: 20%;
+}
+.x{
+    margin-top: 10%;
+}
+.gitHub-logo{
+    width: 80%;
+    object-fit: cover;
+    margin-left: 10%;
+}
+.gitHub{
+    margin-top: 10%;
+}
+.gmail-logo{
+    width: 80%;
+    object-fit: cover;
+    margin-left: 10%;
+}
+h5{
+    border-bottom: 1px solid gray;
+}
+.phone-logo{
+    width: 80%;
+    object-fit: cover;
+    margin-left: 10%;
+}
+.resume-heading{
+    margin-left: 10%;
+    font-size: 30px;
+}
+.skills{
+    border-bottom: 1px solid gray;
+   width: 80%;
+}
+.skills-heading{
+    margin-left: 15%;
+}
+.tech-skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+.soft-skills{
+    display: flex;
+}
+.soft-skill-heading{
+    margin-left: 20%;
+}
+ .resume-paragraphs{
+    margin-left: 0;
+    color: rgb(81, 80, 80);
+}
+.certification-img{
+    width: 80%;
+    height: 80%;
+}
+.lu-img{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    margin-bottom: 20%;
+}
+.corizo-img{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+.certification-heading{
+    margin-left: 10%;
+}
+.certification{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.paras{
+    display: block;
+    margin-right: 5%;
+}
+.lu-paragraph{
+    margin-top: 20% ;
+}
+.corizo-paragraph{
+    margin-top: 40% ;
+}
+
+@media (max-width:990px) {
+    nav{
+        display: none;
+    }
+.name{
+    margin: 50px;
+    font-size :  70px;
+}
+.options{
+ height: 0;
+display: none;
+}
+.linkers{
+    margin-top: 20%;
+   
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.header{
+    width: 100%;
+}
+.main{
+    flex-direction: column-reverse;
+}
+.paragraph{
+    font-size: 30px;
+}
+.greeting{
+    font-size: 50px;
+}
+.media-query{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.buttons{
+    margin-bottom: 20px;
+}
+.img{
+    object-fit: cover;
+    width: 80%;
+    height:70vh
+}
+.project-heading{
+    margin: 5%;
+   font-size: 60px;
+   
+}
+.content{
+    flex-direction: column;
+   text-align: center;
+}
+.image{
+    width: 100%;
+}
+.project-image{
+   margin: 20px;
+}
+.project-details{
+    width: 100%;
+}
+.project-name{
+    margin-left: 27px;
+    font-size: 40px;
+}
+.project-summary{
+    font-size: 25px;
+    width: 70%;
+    margin-left: 12%;
+}
+.links{
+    justify-content: center;
+}
+.contact-details{
+    display: block;
+}
+.contact-heading{
+    margin: 3%;
+    font-size: 70px;
+}
+.collective-contact{
+    margin: 5%;
+}
+p{
+    margin:4%;
+    font-size: 18px;
+    
+}
+.contact-links{
+    font-size: 20px;
+}
+.x-logo{
+    width: 88%;
+    object-fit: cover;
+    margin-left: 20%;
+    height: 15%;
+}
+.x{
+    margin-top: 10%;
+}
+.gitHub-logo{
+    width: 88%;
+    object-fit: cover;
+    margin-left: 10%;
+    height: 15%;
+}
+.gitHub{
+    margin-top: 10%;
+}
+.gmail-logo{
+    width: 88%;
+    object-fit: cover;
+    margin-left: 10%;
+    height: 15%;
+}
+h5{
+    border-bottom: 1px solid gray;
+}
+.phone-logo{
+    width: 88%;
+    object-fit: cover;
+    margin-left: 10%;
+    height: 15%;
+}
+.logos{
+    width: 5%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.linkedin{
+    width: 100%;
+    object-fit: cover;
+    height: 15%;
+}
+.resume-heading{
+    margin-left: 10%;
+    font-size: 40px;
+}
+.skills-heading{
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+}
+.skills{
+    width: 100%;
+}
+.tech-skills{
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    font-size: 30px;
+}
+ul{
+    font-size: 25px;
+    text-align: center;
+}
+.soft-skills{
+    flex-direction: column;
+    align-items: center;
+}
+.soft-skill-heading{
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+}
+.no-bullets{
+    list-style-type: none;
+}
+.resume-paragraphs{
+    font-size: 25px;
+}
+.certification-heading{
+    font-size: 40px;
+}
+.corizo-img{
+    margin-top: 30vh;
+    width: 100%;
+}
+.lu-img{
+    width: 100%;
+    margin-bottom: 0;
+    height: 20%;
+    margin-top: 10%;
+}
+.lu-paragraph{
+    margin-top: 10%;
+    font-size: 20px;
+}
+.paras{
+    margin-right: 0;
+}
+.corizo-paragraph{
+    margin-top: 55%;
+    font-size: 20px;
+}
+.ham{
+    height: 40px;
+   align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    margin-right: 10%;
+}
+.cross{
+    height: 40px;
+   align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    margin-right: 10%;
+}
+.side-btn.x-btn{
+ margin-left : 40px;
+ margin-top: 40px;
+}
+.App .sidebar{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-y: hidden;
+    transition: all 0.5s ease-in-out;
+}
+.tabs{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 1;
+}
+}
+@media (min-width : 320px) and (max-width:818px) {
+    .img{
+     
+        height : 60vh
+    }
+    .project-image{
+        margin: 0;
+     }
+}
+@media(max-width: 772px) {
+    .img
+    {width: 90%;}
+}
+@media (max-width :672px){
+ .ham{
+    margin-bottom: 15%;
+ }
+}
